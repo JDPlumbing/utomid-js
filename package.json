@@ -1,0 +1,17 @@
+{
+  "name": "utomid",
+  "version": "0.1.0",
+  "description": "Atomic/elemental encoding system for materials",
+  "main": "src/core.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/core.js"
+  },
+  "scripts": {
+      "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
